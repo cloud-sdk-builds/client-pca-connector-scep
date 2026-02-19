@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-pca-connector-scep`](https://www.npmjs.com/package/@aws-sdk/client-pca-connector-scep/v/3.922.0).
+[`@aws-sdk/client-pca-connector-scep`](https://www.npmjs.com/package/@aws-sdk/client-pca-connector-scep/v/3.925.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.922.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.925.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gtXKR8kSphqJIMeU620zKuD+9Z9IR/kF2SncWHw28wPPCD9HW8ucJXx/+QiALC85
+sha384-PU1j/C6zJzsenRds2R+1DrvJ+x8qUH6a2KDuFOWrwQQoDrTspx9pZAzLVbF+1alt
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-pca-connector-scep": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.922.0/index.min.mjs"
+            "@aws-sdk/client-pca-connector-scep": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.925.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.922.0/index.min.mjs": "sha384-gtXKR8kSphqJIMeU620zKuD+9Z9IR/kF2SncWHw28wPPCD9HW8ucJXx/+QiALC85"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.925.0/index.min.mjs": "sha384-PU1j/C6zJzsenRds2R+1DrvJ+x8qUH6a2KDuFOWrwQQoDrTspx9pZAzLVbF+1alt"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-pca-connector-scep": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.922.0/index.min.mjs"
+                        "@aws-sdk/client-pca-connector-scep": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.925.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.922.0/index.min.mjs": "sha384-gtXKR8kSphqJIMeU620zKuD+9Z9IR/kF2SncWHw28wPPCD9HW8ucJXx/+QiALC85"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-scep@3.925.0/index.min.mjs": "sha384-PU1j/C6zJzsenRds2R+1DrvJ+x8qUH6a2KDuFOWrwQQoDrTspx9pZAzLVbF+1alt"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.922.0`)
+* Always pin to a specific version (`@3.925.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-pca-connector-scep/blob/refs/tags/3.922.0/LICENSE
+https://github.com/cloud-sdk-builds/client-pca-connector-scep/blob/refs/tags/3.925.0/LICENSE
 ```
 
 ---
